@@ -89,7 +89,7 @@ fe.community <- function(hc, comm) {
 }
 
 # Example:
-sp <- 20
+sp <- 5
 traits <- sapply(1:7, function(x) rnorm(sp))
 colnames(traits) <- LETTERS[1:7]
 rownames(traits) <- letters[1:sp]
